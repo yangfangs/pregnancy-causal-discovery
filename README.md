@@ -3,8 +3,6 @@
 > Analysis framework accompanying:
 > **"Causal Discovery and Identification of Interventable Windows for Pregnancy
 > Complications: A Multi-Center Temporal Analysis"**
->
-> Target journal: *Nature Medicine* / *The Lancet Digital Health*
 
 ---
 
