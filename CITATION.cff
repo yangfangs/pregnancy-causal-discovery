@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the software (via the Zenodo DOI) and the associated article."
+title: "Causal Discovery and Identification of Interventable Windows for Pregnancy Complications"
+abstract: >-
+  Analysis code for a multi-center causal discovery study of pregnancy
+  complications (pre-eclampsia, gestational hypertension, gestational diabetes
+  mellitus) using routine laboratory data. Includes trimester-stratified
+  consensus causal DAGs via a four-algorithm bootstrap ensemble (PC, FCI,
+  DirectLiNGAM, NOTEARS-MLP), causal cascade identification, and counterfactual
+  intervention-window estimation (PSW-ATT, IV-2SLS, RDD).
+type: software
+authors:
+  - family-names: Yang
+    given-names: Fang
+    email: yangfang0227@gmail.com
+    # affiliation: "[your institution]"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+license: MIT
+repository-code: "https://github.com/yangfangs/pregnancy-causal-discovery"
+# version: "1.0.0"            # TODO: tag a release before archiving
+# doi: "10.5281/zenodo.XXXXXXX"  # TODO: fill in the Zenodo DOI after minting
+keywords:
+  - causal discovery
+  - pregnancy complications
+  - pre-eclampsia
+  - counterfactual inference
+  - clinical laboratory data

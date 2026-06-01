@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Patient-level data — never commit
+data/raw/
+data/cleaned/
+
+# ── Study-specific outputs — NOT published (framework-only release) ──
+# All pre-computed results (consensus DAGs, cascades, counterfactual estimates,
+# harmonized data) are paper-specific. The repo ships only the framework code;
+# these are regenerated locally by running the pipeline. results/ is kept as a
+# runtime output directory via results/.gitkeep.
+results/*
+!results/.gitkeep
+
+# Publication figure/table generation (manuscript-specific, not part of the framework)
+sci_outputs/
+
+# Environment / IDE
+.env
+.venv/
+venv/
+*.env
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# ── Pre-publication / internal material — DO NOT publish ──
+# Unpublished manuscript drafts, cover letter, internal peer-review reports,
+# reference (.enw) working files. Excluded from the public code repository.
+manuscript/
+
+# Internal planning / working notes (not part of the released code)
+task_plan.md
+progress.md
+findings.md
+Research_Report.md
+
+# Local credentials — NEVER commit (contains GitHub PAT)
+github_info.md
+*.token
+*credentials*
