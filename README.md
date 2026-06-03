@@ -70,10 +70,7 @@ CausalDiscovery/
 │       ├── generate_example_data.py  # Generates a synthetic cohort
 │       └── example_cohort.parquet    # 500-record synthetic dataset
 ├── results/                 # Runtime output directory (created when you run the pipeline)
-├── requirements.txt
-├── AVAILABILITY_STATEMENT.md
-├── CITATION.cff
-└── ZENODO.md
+└── requirements.txt
 ```
 
 ---
@@ -163,22 +160,6 @@ include:
 - the manuscript and any patient-level data.
 
 Everything needed to run the methods on your own (or the synthetic) data is included.
-
----
-
-## Data Availability
-
-See [AVAILABILITY_STATEMENT.md](AVAILABILITY_STATEMENT.md) for the full Code and Data
-Availability statements. In brief: the original multi-center patient data are not publicly
-available due to ethical and regulatory restrictions; a fully synthetic example dataset is
-provided here for code testing.
-
----
-
-## Citation
-
-> [Citation will be added upon acceptance.] See [CITATION.cff](CITATION.cff). Archived
-> releases receive a Zenodo DOI — see [ZENODO.md](ZENODO.md).
 
 ---
 
